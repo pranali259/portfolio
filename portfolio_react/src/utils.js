@@ -1,3 +1,3 @@
-export const getImageUrl = (path) => {
-    return new URL('assests/$path', import.meta.url).href;
-};
+export function getImageUrl(path) {
+  return new URL(`/public/assets/${path}`, import.meta.url).href;
+}
