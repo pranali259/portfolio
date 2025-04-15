@@ -2,7 +2,7 @@ import React from 'react';
 import heroImage from '/assets/hero/heroImage.png';
 import styles from "./Hero.module.css";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <section className={styles.container}>
         <div className={styles.content}>
@@ -16,5 +16,3 @@ const Hero = () => {
     </section>
   )
 }
-
-export default Hero
