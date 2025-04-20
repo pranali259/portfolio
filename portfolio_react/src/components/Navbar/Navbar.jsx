@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
 import menuIcon from '/assets/nav/menuIcon.png';
 import closeIcon from '/assets/nav/closeIcon.png';
 export const Navbar = () => {
@@ -33,9 +32,9 @@ export const Navbar = () => {
           <li>
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#projects">Projects</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>

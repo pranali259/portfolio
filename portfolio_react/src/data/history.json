@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Senior Software Engineer",
+      "organisation": "Accenture",
+      "startDate": "March, 2022",
+      "endDate": "Present",
+      "experiences": ["Experience 1", "Experience 2"],
+      "imageSrc": "/assets/history/accenture_logo.png"
+    },
+    {
+      "role": "Senior Application Developer",
+      "organisation": "Ugam",
+      "startDate": "May, 2014",
+      "endDate": "March, 2022",
+      "experiences": ["Worked on UI designs, dyanamic dashboard", "Worked on enhancing data visualization and analysis"],
+      "imageSrc": "/assets/history/ugam_logo.png"
+    }
+  ]
